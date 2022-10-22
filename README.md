@@ -28,7 +28,7 @@ columns was then fed through a network of dense layers, and finally to an output
 ``` For more details, please refer to the PDF files uploaded in the repository.```
 
 ## Results 
-The MCNN and the auto-encoder performed considerably well on the dataset. The dataset was shuffled 5 times, and the average loss of the auto- encoder was 0.47 and the average accuracy of the MCNN was 89.24%. The model’s high accuracy can be attributed to its scale invariant property which resulted from the use of filters of varying sizes
+The MCNN and the auto-encoder performed considerably well on the dataset. The dataset was shuffled 5 times, and the average loss of the auto- encoder was 0.47 and the average accuracy of the MCNN was 89.24%. The model’s high accuracy can be attributed to its scale invariant property which resulted from the use of filters of varying sizes.
 
 
 ## Comparisons of our solution with other existing solutions:
