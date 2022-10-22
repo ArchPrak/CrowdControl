@@ -1,5 +1,5 @@
 # CrowdControl
-With this project we have implemeted a deep network that would be able to predict the occurrence of a stampede. 
+With this project we have implemeted a deep network using Python which would be able to predict the occurrence of a stampede. 
 On compiling crowd images obtained from different sources and labelling them, we created our dataset. The grayscale resized images were fed into a configuration of an auto- encoder and a multi-column CNN. The auto encoder was used to compress images without much information loss. The output of the auto-encoder was fed into the CNN which used different sized filters to detect features and thus classify the images.
 
 
@@ -24,7 +24,12 @@ columns was then fed through a network of dense layers, and finally to an output
 
 
 
-``` For more details, please refer to the report and the PPT files uploaded in the repository.```
+
+``` For more details, please refer to the PDF files uploaded in the repository.```
+
+## Results 
+The MCNN and the auto-encoder performed considerably well on the dataset. The dataset was shuffled 5 times, and the average loss of the auto- encoder was 0.47 and the average accuracy of the MCNN was 89.24%. The model’s high accuracy can be attributed to its scale invariant property which resulted from the use of filters of varying sizes
+
 
 ## Comparisons of our solution with other existing solutions:
 Many of the existing solutions for stampede detection with images use image processing techniques for head counting. The classification would be solely based on the count of people. As in our approach, using a model would mean more learning than just the count of people and hence could offer more accurate classifications.
@@ -36,3 +41,10 @@ What is unique about our solution:
 Our dataset was compiled from various sources and was not readily available. We had to label our images according to the class as stampede/non-stampede. We could find a limited amount of images which could be used for our application.
 Assumptions: 
 We had to label our images as stampede/non-stampede as there was no dataset with the label readily available. But we are sure that given a valid dataset, our model would still work.
+
+## Authors
+
+* **Archana Prakash** - [GitHub](https://github.com/ArchPrak) - [Email](mailto:arch.2421@gmail.com)
+* **Hritvik Patel**  - [GitHub](https://github.com/hritvikpatel4) - [Email](mailto:hritvik.patel4@gmail.com)
+* **Shreyas BS** - [GitHub](https://github.com/sriramsk1999) - [Email](mailto:bsshreyas99@gmail.com)
+
