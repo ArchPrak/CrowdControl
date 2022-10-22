@@ -2,6 +2,7 @@
 With this project we have implemeted a deep network using Python which would be able to predict the occurrence of a stampede. 
 On compiling crowd images obtained from different sources and labelling them, we created our dataset. The grayscale resized images were fed into a configuration of an auto- encoder and a multi-column CNN. The auto encoder was used to compress images without much information loss. The output of the auto-encoder was fed into the CNN which used different sized filters to detect features and thus classify the images.
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Context
 In a highly populated country like India, stampedes pose a huge threat to human lives. Our aim was to apply what we’ve learnt to solve a social problem. The advancements in hardware technology offer great potential to this model that can be used to predict a stampede and alert the concerned authorities. The idea of using basic math to save lives amused us.
