@@ -47,5 +47,5 @@ We had to label our images as stampede/non-stampede as there was no dataset with
 
 * **Archana Prakash** - [GitHub](https://github.com/ArchPrak) - [Email](mailto:arch.2421@gmail.com)
 * **Hritvik Patel**  - [GitHub](https://github.com/hritvikpatel4) - [Email](mailto:hritvik.patel4@gmail.com)
-* **Shreyas BS** - [GitHub](https://github.com/sriramsk1999) - [Email](mailto:bsshreyas99@gmail.com)
+* **Shreyas BS** - [GitHub](https://github.com/bsshreyas99) - [Email](mailto:bsshreyas99@gmail.com)
 
